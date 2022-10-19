@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kcook98765" name="kcook98765 Alpha Repository" version="1.0.0" provider-name="kcook98765">
+    <extension point="xbmc.addon.repository" name="kcook98765 Alpha Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/repo/zips/</datadir>
+        </dir>
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/matrix/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>kcook98765 Alpha Repository</summary>
+        <description>A repository for alpha releases of kcook98765 Kodi addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
