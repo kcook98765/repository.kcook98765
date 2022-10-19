@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="script.epg_fuzzy_match" name="EPG Fuzzy Match" version="0.2.11" provider-name="kcook98765">
+<addons><addon id="script.LibreTranslate" name="LibreTranslate" version="0.0.5" provider-name="kcook98765">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">LibreTranslate</summary>
+		<description lang="en_GB">Translate on the fly via libretranslate.com</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/xxxxxx</forum>
+		<source>https://github.com/kcook98765/script.LibreTranslate</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news>- Do on the fly translations using libretranslate API for local or mirrored servers ( https://libretranslate.com/ )</news>
+	</extension>
+</addon><addon id="script.epg_fuzzy_match" name="EPG Fuzzy Match" version="0.2.11" provider-name="kcook98765">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.simplecache" version="2.0.2" />
