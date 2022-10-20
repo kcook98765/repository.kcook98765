@@ -4,3 +4,6 @@
 [submodule "matrix/script.LibreTranslate"]
 	path = matrix/script.LibreTranslate
 	url = https://github.com/kcook98765/script.LibreTranslate
+[submodule "matrix/plugin.program.shortlist"]
+	path = matrix/plugin.program.shortlist
+	url = https://github.com/kcook98765/plugin.program.shortlist
