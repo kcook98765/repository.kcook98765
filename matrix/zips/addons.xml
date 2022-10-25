@@ -32,9 +32,10 @@
         </item>
       </menu>
     </extension>
-</addon><addon id="script.LibreTranslate" name="LibreTranslate" version="0.0.7" provider-name="kcook98765">
+</addon><addon id="script.LibreTranslate" name="LibreTranslate" version="0.0.8" provider-name="kcook98765">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.simplecache" version="2.0.2" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py" />
 	<extension point="xbmc.addon.metadata">
