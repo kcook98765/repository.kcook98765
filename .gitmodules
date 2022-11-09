@@ -7,3 +7,6 @@
 [submodule "matrix/plugin.program.shortlist"]
 	path = matrix/plugin.program.shortlist
 	url = https://github.com/kcook98765/plugin.program.shortlist
+[submodule "script.DevView"]
+	path = script.DevView
+	url = https://github.com/kcook98765/script.DevView
