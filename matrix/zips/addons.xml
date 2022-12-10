@@ -32,7 +32,7 @@
         </item>
       </menu>
     </extension>
-</addon><addon id="script.DevView" name="DevView" version="0.2.3" provider-name="kcook98765">
+</addon><addon id="script.DevView" name="DevView" version="0.3.6" provider-name="kcook98765">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -42,9 +42,12 @@
         <menu id="kodi.core.main">
             <item library="context.py">
                 <label>30012</label>
-                <visible>!String.IsEmpty(ListItem.DBID)</visible>
+                <visible>true</visible>
             </item>
         </menu>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="report.py">
+        <provides>video</provides>
     </extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
@@ -58,6 +61,11 @@
 			<icon>icon.png</icon>
 		</assets>
 		<news>
+		
+V0.3.6 Revamp most everything. Results stored in database. Use Video Addon functionality to show results in kodi
+HTML page improvements.
+Calls various JsonRPC depending on what is viewed
+		
 V0.2.2 update readme
 
 V0.2.2 HTML report layout re orginization		
