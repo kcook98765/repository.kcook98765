@@ -13,6 +13,3 @@
 [submodule "matrix/script.DevView"]
 	path = matrix/script.DevView
 	url = https://github.com/kcook98765/script.DevView
-[submodule "script.mediachat"]
-	path = script.mediachat
-	url = https://github.com/kcook98765/script.mediachat
