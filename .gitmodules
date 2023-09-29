@@ -16,3 +16,6 @@
 [submodule "matrix/script.mediachat"]
 	path = matrix/script.mediachat
 	url = https://github.com/kcook98765/script.mediachat
+[submodule "matrix/service.IPTVEncoderRedirect"]
+	path = matrix/service.IPTVEncoderRedirect
+	url = https://github.com/kcook98765/service.IPTVEncoderRedirect
