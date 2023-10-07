@@ -204,7 +204,7 @@ V0.0.1 Initial Version</news>
         <stars>4</stars>
         <fanart>fanart.jpg</fanart>
     </extension>
-</addon><addon id="service.IPTVEncoderRedirect" name="IPTV Encoder Proxy" version="0.0.79" provider-name="kcook98765">
+</addon><addon id="service.IPTVEncoderRedirect" name="IPTV Encoder Proxy" version="0.0.80" provider-name="kcook98765">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
