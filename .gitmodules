@@ -22,3 +22,6 @@
 [submodule "nexus/service.IPTVEncoderRedirect"]
 	path = nexus/service.IPTVEncoderRedirect
 	url = https://github.com/kcook98765/service.IPTVEncoderRedirect
+[submodule "matrix/slyguy.addons"]
+	path = matrix/slyguy.addons
+	url = https://github.com/kcook98765/slyguy.addons
