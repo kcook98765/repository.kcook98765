@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.kcook98765" name="kcook98765 Alpha Repository" version="1.0.3" provider-name="kcook98765">
+<addons><addon id="repository.kcook98765" name="kcook98765 Alpha Repository" version="1.0.4" provider-name="kcook98765">
     <extension point="xbmc.addon.repository" name="kcook98765 Alpha Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/kcook98765/repository.kcook98765/master/repo/zips/addons.xml</info>
