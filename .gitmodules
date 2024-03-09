@@ -25,3 +25,7 @@
 [submodule "matrix/slyguy.addons"]
 	path = matrix/slyguy.addons
 	url = https://github.com/kcook98765/slyguy.addons
+[submodule "Nexus/skin.aura"]
+	path = Nexus/skin.aura
+	url = https://github.com/kcook98765/skin.aura
+	branch = Nexus
